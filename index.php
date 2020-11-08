@@ -57,7 +57,7 @@ bot('sendmessage', ['chat_id' => $chat_id,
 
 😅 Bu botni vazifasi: siz vaqtni o'rnatasiz va habar kiritasiz va men uni o'sha kiritgan vaqtingizda kanalingizga joylayman🤟 
 👨🏻‍💻Dasturchi @Uzb_Coderchik 
-💪Kanalimiz @Hacker_Buy
+💪Kanalimiz @Hacker_Bey
  
 
 ☝️Ishni boshlash uchun quyidagi tugmalarni ishlating☝️; ",
