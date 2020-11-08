@@ -55,10 +55,12 @@ if($text == "/start" && $chat_id == $admin){
 bot('sendmessage', ['chat_id' => $chat_id,
 'text'=>"Salom admin {$first_name};
 
-😅 Bu botni vazifasi: siz vaqtni o'rnatasiz va habar kiritasiz va men uni o'sha kiritgan vaqtingizda kanalingizga joylayman🤟 Dasturchi @Uzb_Coderchik Kanalimiz @Hacker_Buy
+😅 Bu botni vazifasi: siz vaqtni o'rnatasiz va habar kiritasiz va men uni o'sha kiritgan vaqtingizda kanalingizga joylayman🤟 
+👨🏻‍💻Dasturchi @Uzb_Coderchik 
+💪Kanalimiz @Hacker_Buy
  
 
- Ishni boshlash uchun quyidagi tugmalarni ishlating; ",
+☝️Ishni boshlash uchun quyidagi tugmalarni ishlating☝️; ",
 'parse_mode'=>'html',
 'reply_markup'=>json_encode(['inline_keyboard'=>[[['text'=>"Vaqtni kiritish",'callback_data'=>"set"],['text'=>"⚜️Project leaders⚜️",'callback_data'=>"Dev"]]],'resize_keyboard'=>true])]);}
 elseif($data == "set"){
@@ -91,11 +93,11 @@ file_put_contents("data/Post.txt", $text);
 bot('sendmessage', ['chat_id' => $chat_id,
 'text'=>"Xabar muvaffaqiyatli ravishda $Timeset vaqtiga o'rnatildi
 
- 🔺 Agar siz vaqtni noto'g'ri tanlagan bo'lsangiz yoki sizning xabaringiz media va fayl bo'lsa
+ 🤚 Agar siz vaqtni noto'g'ri tanlagan bo'lsangiz yoki sizning xabaringiz media va fayl bo'lsa
  Kanalingizga yuborilmaydi
 
 
- Robotni qayta ishga tushirish uchun /start ni bosing",]);}
+😎 Robotni qayta ishga tushirish uchun /start ni bosing",]);}
 elseif( $time == $Timeset){
 bot('sendmessage',['chat_id'=>$Mehdi,   
 'text'=>" $Postset ",]);
