@@ -55,7 +55,7 @@ if($text == "/start" && $chat_id == $admin){
 bot('sendmessage', ['chat_id' => $chat_id,
 'text'=>"Salom admin {$first_name};
 
-Bu botni vazifasi siz vaqtni o'rnatasiz va habar kiritasiz va men uni o'sha kiritgan vaqtingizda kanalingizga joylayman
+😅 Bu botni vazifasi: siz vaqtni o'rnatasiz va habar kiritasiz va men uni o'sha kiritgan vaqtingizda kanalingizga joylayman🤟 Dasturchi @Uzb_Coderchik Kanalimiz @Hacker_Buy
  
 
  Ishni boshlash uchun quyidagi tugmalarni ishlating; ",
